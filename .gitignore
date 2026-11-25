@@ -1,0 +1,21 @@
+# Sensitive configuration & environment files
+wp-config.php
+.env
+*.sql
+*.sql.gz
+
+# User-uploaded media (usually too large for Git)
+wp-content/uploads/
+
+# Cache, backups, and temporary files
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/backups/
+*.log
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
